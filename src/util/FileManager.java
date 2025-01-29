@@ -1,7 +1,7 @@
-package Utils;
+package util;
 
-import Items.Item;
-import Items.ItemRarity;
+import item.Item;
+import item.ItemRarity;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

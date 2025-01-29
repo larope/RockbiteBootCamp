@@ -1,4 +1,4 @@
-package Items;
+package item;
 
 public enum ItemRarity {
     COMMON,

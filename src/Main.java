@@ -1,9 +1,9 @@
-import Inventory.Inventory;
-import Inventory.InventoryLoader;
-import Items.Item;
-import Items.ItemGenerator;
-import Items.ItemRarity;
-import Utils.Logger;
+import inventory.Inventory;
+import inventory.InventoryLoader;
+import item.Item;
+import item.ItemGenerator;
+import item.ItemRarity;
+import util.Logger;
 
 
 public class Main {

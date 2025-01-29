@@ -1,8 +1,8 @@
-package Inventory;
+package inventory;
 
-import Items.Item;
-import Items.ItemRarity;
-import Utils.Logger;
+import item.Item;
+import item.ItemRarity;
+import util.Logger;
 
 import java.util.ArrayList;
 import java.util.Comparator;

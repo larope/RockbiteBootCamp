@@ -1,6 +1,6 @@
-package Items;
+package item;
 
-import Utils.Logger;
+import util.Logger;
 
 import java.util.Random;
 

@@ -1,6 +1,6 @@
-package Inventory;
+package inventory;
 
-import Utils.FileManager;
+import util.FileManager;
 
 public abstract class InventoryLoader {
     public static void saveInventory(String filename, Inventory fromInventory) {

@@ -1,6 +1,6 @@
-package Items;
+package item;
 
-import Utils.Logger;
+import util.Logger;
 
 public class Item {
     static public final int MAX_EPIC_UPGRADE = 2;
