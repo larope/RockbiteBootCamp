@@ -118,23 +118,18 @@ public class Inventory {
         return matchingItems;
     }
 
-
     @Override
     public String toString() {
         StringBuilder inventoryString = new StringBuilder();
         inventoryString.append("Inventory:\n");
 
-        // Loop through all the rarities defined in the enum ItemRarity
         for (ItemRarity rarity : ItemRarity.values()) {
-            // Find items by rarity
             List<Item> itemsByRarity = findItems(rarity);
 
-            // Sort the items by upgrade count in ascending order
             itemsByRarity.sort(Comparator.comparingInt(Item::getUpgradeCount));
 
-            // Append each item using its toString method
             for (Item item : itemsByRarity) {
-                inventoryString.append(" - ").append(item).append("\n");  // Calls item.toString() automatically
+                inventoryString.append(" - ").append(item).append("\n");
             }
         }
         return inventoryString.toString();
